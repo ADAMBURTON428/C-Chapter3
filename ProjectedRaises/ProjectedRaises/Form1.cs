@@ -16,5 +16,23 @@ namespace ProjectedRaises
         {
             InitializeComponent();
         }
+
+        private void btnRaise_Click(object sender, EventArgs e)
+        {
+
+            double Salary;
+            double Raise;
+
+
+            Salary = Convert.ToInt32(txtSalary.Text);
+
+            Raise = Salary * 1.04;
+
+            lblNewSalary.Text = "" + Raise.ToString("c");
+
+
+
+
+        }
     }
 }
