@@ -29,7 +29,7 @@ namespace PayRollGUI
 
         private void btnPayRoll_Click(object sender, EventArgs e)
         {
-            int Name;
+            String Name = (txtName.Text);
             int Security;
             int HourlyPay;
             int HoursWorked;
@@ -38,7 +38,7 @@ namespace PayRollGUI
             double Federal;
             double GrossPay;
             double Tax;
-            Name = Convert.ToInt32(txtName.Text);
+            
             HourlyPay = Convert.ToInt32(txtHourlyPay.Text);
             HoursWorked = Convert.ToInt32(txtHoursWorked.Text);
             Security = Convert.ToInt32(txtSocialSecurity.Text);
@@ -50,7 +50,7 @@ namespace PayRollGUI
             NetPay = GrossPay - Tax;
 
 
-
+            lblPayRoll.Text = "Hello " + Name + " Social Security( " + Security + ") , Gross Pay is " + GrossPay.ToString("c") + ". Federal is " + Federal.ToString("c") + " and State is " + State.ToString("c") + ".Your Net Pay is now " + NetPay.ToString("c");
 
 
 

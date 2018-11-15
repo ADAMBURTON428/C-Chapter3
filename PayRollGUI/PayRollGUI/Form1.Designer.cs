@@ -37,14 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.lblGrossPay = new System.Windows.Forms.Label();
-            this.lblNet = new System.Windows.Forms.Label();
-            this.lblFederal = new System.Windows.Forms.Label();
-            this.lblState = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblPayRoll = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnPayRoll
@@ -122,87 +115,20 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Enter Hours Worked";
             // 
-            // lblGrossPay
+            // lblPayRoll
             // 
-            this.lblGrossPay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblGrossPay.Location = new System.Drawing.Point(525, 127);
-            this.lblGrossPay.Name = "lblGrossPay";
-            this.lblGrossPay.Size = new System.Drawing.Size(100, 23);
-            this.lblGrossPay.TabIndex = 9;
-            // 
-            // lblNet
-            // 
-            this.lblNet.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblNet.Location = new System.Drawing.Point(525, 209);
-            this.lblNet.Name = "lblNet";
-            this.lblNet.Size = new System.Drawing.Size(100, 23);
-            this.lblNet.TabIndex = 11;
-            // 
-            // lblFederal
-            // 
-            this.lblFederal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblFederal.Location = new System.Drawing.Point(525, 157);
-            this.lblFederal.Name = "lblFederal";
-            this.lblFederal.Size = new System.Drawing.Size(100, 23);
-            this.lblFederal.TabIndex = 12;
-            // 
-            // lblState
-            // 
-            this.lblState.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblState.Location = new System.Drawing.Point(525, 183);
-            this.lblState.Name = "lblState";
-            this.lblState.Size = new System.Drawing.Size(100, 23);
-            this.lblState.TabIndex = 13;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(467, 134);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "GrossPay";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(467, 160);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(42, 13);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Federal";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(467, 184);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(32, 13);
-            this.label10.TabIndex = 16;
-            this.label10.Text = "State";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(468, 210);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(24, 13);
-            this.label11.TabIndex = 17;
-            this.label11.Text = "Net";
+            this.lblPayRoll.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblPayRoll.Location = new System.Drawing.Point(447, 149);
+            this.lblPayRoll.Name = "lblPayRoll";
+            this.lblPayRoll.Size = new System.Drawing.Size(200, 73);
+            this.lblPayRoll.TabIndex = 9;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.lblState);
-            this.Controls.Add(this.lblFederal);
-            this.Controls.Add(this.lblNet);
-            this.Controls.Add(this.lblGrossPay);
+            this.Controls.Add(this.lblPayRoll);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -231,14 +157,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label lblGrossPay;
-        private System.Windows.Forms.Label lblNet;
-        private System.Windows.Forms.Label lblFederal;
-        private System.Windows.Forms.Label lblState;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblPayRoll;
     }
 }
 
