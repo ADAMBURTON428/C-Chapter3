@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E35A79D-80D3-4404-8948-85B9C8CC5507}</ProjectGuid>
+    <ProjectGuid>{3D18E4DC-F09F-4452-BCC1-F15F35425661}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MadLibsGUI</RootNamespace>
-    <AssemblyName>MadLibsGUI</AssemblyName>
+    <RootNamespace>CaseProblems</RootNamespace>
+    <AssemblyName>CaseProblems</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,9 +53,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
