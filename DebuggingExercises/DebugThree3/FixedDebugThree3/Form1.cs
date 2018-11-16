@@ -22,7 +22,7 @@ namespace FixedDebugThree3
         {
             double num = Convert.ToDouble(textBox1);
             total = num;
-            outputLabel.Text = "Running total: ", total;
+            outputLabel.Text = String.Format("Running total:{0} ", total);
         }
     }
 }

@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.outputLabel = new System.Windows.Forms.Label();
+            this.goodbyeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // helloButton
@@ -78,11 +79,22 @@
             this.outputLabel.Size = new System.Drawing.Size(0, 13);
             this.outputLabel.TabIndex = 5;
             // 
+            // goodbyeButton
+            // 
+            this.goodbyeButton.Location = new System.Drawing.Point(163, 121);
+            this.goodbyeButton.Name = "goodbyeButton";
+            this.goodbyeButton.Size = new System.Drawing.Size(75, 23);
+            this.goodbyeButton.TabIndex = 0;
+            this.goodbyeButton.Text = "GoodBye";
+            this.goodbyeButton.UseVisualStyleBackColor = true;
+            this.goodbyeButton.Click += new System.EventHandler(this.goodbyeButton_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.goodbyeButton);
             this.Controls.Add(this.outputLabel);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -102,6 +114,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label outputLabel;
+        private System.Windows.Forms.Button goodbyeButton;
     }
 }
 
